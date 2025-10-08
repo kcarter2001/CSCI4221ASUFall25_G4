@@ -123,9 +123,9 @@ Jordan uses EasyEats on their tablet, loving the clean, minimal interface and cl
 
 | PBI (Product Backlog Item)        | Status                   | Sprint  | Estimate                        | Assigned | Reviewer |
 |----------------------------------|--------------------------|---------|---------------------------------|----------|----------|
-| 1. Write up a persona description | Ready for consideration  | 2 weeks | 1 senior for 48 hrs             | Tionna   | KC       |
-| 2. Create prototype wireframes    | Ready for refinement     | 3 weeks | 2 juniors for 72 hrs            | KC       | Tionna   |
-| 3. Write user stories             | Ready for implementation | 4 weeks | 2 juniors + 1 senior for 96 hrs | Kenzie   | Tionna   |
+| 1. Write up a persona description | Ready for consideration  | 2 hours  | 1 senior for 48 hrs             | Tionna   | KC       |
+| 2. Create prototype wireframes    | Ready for refinement     | 1 hour | 2 juniors for 48 hrs           | KC       | Tionna   |
+| 3. Write user stories             | Ready for implementation | 2 hours | 2 juniors + 1 senior for 24 hrs | Kenzie   | Tionna   |
 
 ---
 
