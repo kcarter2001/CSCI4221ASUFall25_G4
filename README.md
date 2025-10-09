@@ -127,9 +127,25 @@ Jordan uses EasyEats on their tablet, loving the clean, minimal interface and cl
 | 2. Create prototype wireframes    | Ready for refinement     | 1 hour | 2 juniors for 48 hrs           | KC       | Tionna   |
 | 3. Write user stories             | Ready for implementation | 2 hours | 2 juniors + 1 senior for 24 hrs | Kenzie   | Tionna   |
 
+
 ---
 
 ## 🧾 Summary
 **EasyEats** focuses on accessibility, speed, and simplicity. It’s more than just a recipe site — it’s a cooking companion for real life. By supporting busy students, new cooks, and working parents, EasyEats helps people eat better, save time, and gain confidence in the kitchen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
