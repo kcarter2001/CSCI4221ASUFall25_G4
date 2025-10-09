@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cookbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍽️ My Digital Cookbook</h1>
+        <p>Delicious recipes at your fingertips!</p>
+    </header>
+
+    <nav>
+        <button onclick="showRecipe('garlicButterPasta')">Garlic Butter Pasta</button>
+        <button onclick="showRecipe('chickenFajita')">1 Pan Chicken Fajita</button>
+        <button onclick="showRecipe('overnightOats')">Overnight Oats Delight</button>
+        <button onclick="showRecipe('veggieStirFry')">Loaded Veggie Stir Fry</button>
+        <button onclick="showRecipe('chocolateMudCake')">Chocolate Mud Cake</button>
+    </nav>
+
+    <main>
+        <div id="recipeDisplay">
+            <h2>Welcome to your cookbook!</h2>
+            <p>Select a recipe from above to view details.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Digital Cookbook</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1rem 0;
+}
+
+nav button {
+    background-color: #ffcc99;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #ffb266;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #ff6f61;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    position: sticky;
+    bottom: 0;
+}
+
+h2 {
+    color: #ff6f61;
+}
+
+.recipe-section {
+    margin-bottom: 2rem;
+}
+
+
+
+const recipes = {
+    garlicButterPasta: {
+        title: "Garlic Butter Pasta",
+        ingredients: [
+            "200g pasta",
+            "3 tbsp butter",
+            "4 cloves garlic, minced",
+            "1/4 cup grated parmesan",
+            "Salt & pepper to taste",
+            "Fresh parsley for garnish"
+        ],
+        steps: [
+            "Cook pasta according to package instructions.",
+            "In a pan, melt butter and sauté garlic until fragrant.",
+            "Add cooked pasta to the pan and toss to coat.",
+            "Season with salt, pepper, and sprinkle parmesan on top.",
+            "Garnish with parsley and serve hot."
+        ]
+    },
+    chickenFajita: {
+        title: "1 Pan Chicken Fajita",
+        ingredients: [
+            "2 chicken breasts, sliced",
+            "1 bell pepper, sliced",
+            "1 onion, sliced",
+            "2 tbsp olive oil",
+            "1 tsp paprika",
+            "1 tsp cumin",
+            "Salt & pepper to taste",
+            "Tortillas"
+        ],
+        steps: [
+            "Preheat pan with olive oil.",
+            "Cook chicken slices until lightly browned.",
+            "Add bell pepper and onion, cook until tender.",
+            "Season with paprika, cumin, salt, and pepper.",
+            "Serve with tortillas and enjoy!"
+        ]
+    },
+    overnightOats: {
+        title: "Overnight Oats Delight",
+        ingredients: [
+            "1/2 cup rolled oats",
+            "1/2 cup milk or almond milk",
+            "1/4 cup yogurt",
+            "1 tbsp chia seeds",
+            "1 tsp honey",
+            "Fruits for topping"
+        ],
+        steps: [
+            "Mix oats, milk, yogurt, chia seeds, and honey in a jar.",
+            "Refrigerate overnight.",
+            "Top with fresh fruits before serving."
+        ]
+    },
+    veggieStirFry: {
+        title: "Loaded Veggie Stir Fry",
+        ingredients: [
+            "1 cup broccoli florets",
+            "1 bell pepper, sliced",
+            "1 carrot, sliced",
+            "2 tbsp soy sauce",
+            "1 tbsp olive oil",
+            "2 cloves garlic, minced",
+            "Optional: tofu or protein of choice"
+        ],
+        steps: [
+            "Heat oil in a pan and sauté garlic.",
+            "Add vegetables and stir fry for 5-7 minutes.",
+            "Add soy sauce and cook for another 2 minutes.",
+            "Serve hot with rice or noodles."
+        ]
+    },
+    chocolateMudCake: {
+        title: "Chocolate Mud Cake",
+        ingredients: [
+            "200g dark chocolate",
+            "150g butter",
+            "1 cup sugar",
+            "3 eggs",
+            "1/2 cup flour",
+            "1 tsp vanilla extract"
+        ],
+        steps: [
+            "Preheat oven to 180°C (350°F).",
+            "Melt chocolate and butter together.",
+            "Whisk in sugar and eggs until smooth.",
+            "Fold in flour and vanilla extract.",
+            "Pour into a greased pan and bake for 25-30 minutes.",
+            "Cool before serving."
+        ]
+    }
+};
+
+function showRecipe(recipeKey) {
+    const recipe = recipes[recipeKey];
+    const display = document.getElementById('recipeDisplay');
+    let html = `<h2>${recipe.title}</h2>`;
+    html += `<div class="recipe-section"><h3>Ingredients:</h3><ul>`;
+    recipe.ingredients.forEach(ing => html += `<li>${ing}</li>`);
+    html += `</ul></div>`;
+    html += `<div class="recipe-section"><h3>Steps:</h3><ol>`;
+    recipe.steps.forEach(step => html += `<li>${step}</li>`);
+    html += `</ol></div>`;
+    display.innerHTML = html;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
