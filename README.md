@@ -1,1 +1,2 @@
 # CSICI4221
+Role: My name is KyLeigh Carter, and I am the Recipe Writer for our group. My role involves creating, testing, and refining recipes to include in our digital cookbook. I focus on making sure each recipe is clear, easy to follow, and appealing to users. I also help write engaging descriptions for each dish and ensure that ingredient lists and cooking steps are accurate and well-organized. My goal is to make cooking simple, fun, and accessible for everyone using our project.
