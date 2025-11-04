@@ -186,20 +186,17 @@ Kenzie will clean up the data file and upload all recipes into the system.
 
 
 | PBI (Product Backlog Item)        | Status                   | Sprint  | Estimate                        | Assigned | Reviewer |
-|----------------------------------|--------------------------|---------|---------------------------------|----------|----------|
-| 1.set up home and recipe screens | Ready for consideration  | 2 hours  | 1 senior for 48 hrs             | Tionna   | KC       |
-| 2. Create prototype wireframes    | Ready for refinement     | 1 hour | 2 juniors for 48 hrs           | KC       | Tionna   |
-| 3. Write user stories             | Ready for implementation | 2 hours | 2 juniors + 1 senior for 24 hrs | Kenzie   | Tionna   |
+|----------------------------------|--------------------------|----------|---------------------------------|----------|----------|
+| 1.Set up home and recipe screens | Ready for consideration  | 2 weeks  | 1 senior for 48 hrs             | Tionna   | KC       |
+| 2.Add images to assets folder    | Ready for refinement     | 1 week   | 2 juniors for 48 hrs            | KC       | Tionna   |
+| 3.Connect images to frontend     | Ready for implementation | 9 days   | 2 juniors + 1 senior for 24 hrs | KC       | Kenzie   |
+| 4.Gather recipe & nutrition data | Ready for implementation | 1 week   | 2 juniors + 1 senior for 24 hrs | Kenzie   | Tionna   |
 
 
 
- PBI Table Update
-Task	Assigned To	Status	Minutes Worked	Notes
-Set up home and recipe screens	Tionna	In Progress	120 min	UI layout built
-Add images to assets folder	KyLeigh	Complete	60 min	Images organized
-Connect images to frontend	KyLeigh	In Progress	90 min	Need to fix 2 paths
-Gather recipe & nutrition data	Kenzie	Complete	120 min	JSON file ready
-Team meeting / planning	All	Complete	30 min	Discussed goals
+
+
+
 
 
 
