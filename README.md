@@ -181,7 +181,19 @@ Tionna will connect navigation between pages and work on responsiveness.
 
 Kenzie will clean up the data file and upload all recipes into the system.
 
-4. PBI Table Update
+
+
+
+
+| PBI (Product Backlog Item)        | Status                   | Sprint  | Estimate                        | Assigned | Reviewer |
+|----------------------------------|--------------------------|---------|---------------------------------|----------|----------|
+| 1.set up home and recipe screens | Ready for consideration  | 2 hours  | 1 senior for 48 hrs             | Tionna   | KC       |
+| 2. Create prototype wireframes    | Ready for refinement     | 1 hour | 2 juniors for 48 hrs           | KC       | Tionna   |
+| 3. Write user stories             | Ready for implementation | 2 hours | 2 juniors + 1 senior for 24 hrs | Kenzie   | Tionna   |
+
+
+
+ PBI Table Update
 Task	Assigned To	Status	Minutes Worked	Notes
 Set up home and recipe screens	Tionna	In Progress	120 min	UI layout built
 Add images to assets folder	KyLeigh	Complete	60 min	Images organized
