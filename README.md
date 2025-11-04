@@ -135,7 +135,59 @@ Jordan uses EasyEats on their tablet, loving the clean, minimal interface and cl
 
 
 
+Progress Report
 
+Tionna (Front-End):
+
+Started designing the home and recipe pages using React Native.
+
+Set up navigation and layout for the app screens.
+
+Time spent: 2 hours
+
+KyLeigh (Back-End / Creative Design):
+
+Created initial design mockups and app logo.
+
+Organized folder structure for backend integration.
+
+Connected image assets (e.g., food photos) to the code.
+
+Time spent: 2.5 hours
+
+Kenzie (Data & Logistics):
+
+Collected recipe and nutrition data for app database.
+
+Began organizing data in JSON format for integration.
+
+Updated spreadsheet for ingredient tracking.
+
+Time spent: 2 hours
+
+2. Issues Discussed
+
+Some image links not showing correctly in the app.
+
+Need to finalize color scheme and fonts for consistent UI.
+
+Still deciding on how to store user recipe preferences (local or cloud database).
+
+3. Action Items / Next Steps
+
+KyLeigh will finish backend setup and help style pages.
+
+Tionna will connect navigation between pages and work on responsiveness.
+
+Kenzie will clean up the data file and upload all recipes into the system.
+
+4. PBI Table Update
+Task	Assigned To	Status	Minutes Worked	Notes
+Set up home and recipe screens	Tionna	In Progress	120 min	UI layout built
+Add images to assets folder	KyLeigh	Complete	60 min	Images organized
+Connect images to frontend	KyLeigh	In Progress	90 min	Need to fix 2 paths
+Gather recipe & nutrition data	Kenzie	Complete	120 min	JSON file ready
+Team meeting / planning	All	Complete	30 min	Discussed goals
 
 
 
